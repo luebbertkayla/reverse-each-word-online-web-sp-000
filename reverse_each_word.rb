@@ -10,7 +10,7 @@ def reverse_each_word(array)
   new_array.join(" ")
 end
 
-
+# here is a simpler way to do the above code for collect
 def reverse_each_word(array)
   array.split(" ").collect {|x| x.reverse!}.join(" ")
 end
